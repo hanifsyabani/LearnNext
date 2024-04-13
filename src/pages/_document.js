@@ -3,7 +3,7 @@ export default function Document() {
   return (
     <Html lang="en">
 
-      <title>Muhammad Hanif Sya'bani | Portfolio</title>
+      <title>Muhammad Hanif Sya bani | Portfolio</title>
       <link rel="icon" href="/mhf.png" />
       <Head />
       <body>

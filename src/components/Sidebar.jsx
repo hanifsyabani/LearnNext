@@ -40,7 +40,7 @@ const Sidebar = ({ handleDarkMode, darkmode}) => {
           </Tooltip>
           <div className="mt-2">
             <div className="flex items-center gap-1 justify-center">
-              <h3 className="font-bold text-center">Muhammad Hanif Sya'bani</h3>
+              <h3 className="font-bold text-center">Muhammad Hanif Sya bani</h3>
               <RiVerifiedBadgeFill size={16} className="text-green-500" />
             </div>
             <p className={`${darkmode ? 'text-white' : 'text-gray-600'} text-center text-sm `}>@mhanifs_</p>
@@ -97,7 +97,7 @@ const Sidebar = ({ handleDarkMode, darkmode}) => {
           </div>
           <hr className="mt-6 border border-black" />
           <div className="mt-4 pl-4">
-            <h5>Let's Connect</h5>
+            <h5>Lets Connect</h5>
             <Medsos darkmode={darkmode} />
           </div>
           <hr className="mt-6 border border-black" />
@@ -105,7 +105,7 @@ const Sidebar = ({ handleDarkMode, darkmode}) => {
             <p className="text-center text-sm p-4 mt-3">
               ©️ 2024 Copyright By{" "}
               <a href="www.linkedin.com/in/muhammad-hanif-sya-bani">
-                <span className="font-bold">Muhammad Hanif Sya'bani</span>
+                <span className="font-bold">Muhammad Hanif Sya bani</span>
               </a>
             </p>
           </div>

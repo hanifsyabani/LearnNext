@@ -143,9 +143,10 @@ const Project = () => {
               />
               <div className="p-3 mt-3">
                 <div className="flex items-center gap-3 mb-4">
-                  {item.tech?.map((item) => (
+                  {item.tech?.map((item, i) => (
                     <Image
                       src={item}
+                      key={i}
                       width={40}
                       height={40}
                       className="bg-gray-100 p-2 rounded-full"

@@ -23,10 +23,6 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 
 
-// darkmode
-// responsif
-// aos
-
 const Home = ({darkmode}) => {
 
   useEffect(() =>{
@@ -54,7 +50,7 @@ const Home = ({darkmode}) => {
         </h1>
       </div>
       <div className="lg:mt-6 mt-10" data-aos = 'fade-right' >
-        <h3 >Let's Connect</h3>
+        <h3 >Lets Connect</h3>
         <Medsos darkmode={darkmode}/>
         <p className={`${darkmode ? "text-white" : "text-gray-600"} lg:mt-3 mt-6 text-center md:text-left`}>
           I am a computer systems student with a deep interest in{" "}

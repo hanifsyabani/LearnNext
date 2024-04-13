@@ -54,7 +54,7 @@ const Contact = ({darkmode}) => {
         <h1 className="text-3xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
           Get in Touch
         </h1>
-        <p className={`${darkmode ? "text-white" : "text-gray-600"}`}>Let's get to know each other</p>
+        <p className={`${darkmode ? "text-white" : "text-gray-600"}`}>Lets get to know each other</p>
         <div className="flex items-center mt-8 gap-2">
           <MdOutlineEmail size={24} />
           <p>mh070940@gmail.com</p>

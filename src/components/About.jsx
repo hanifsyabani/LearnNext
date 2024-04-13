@@ -20,13 +20,13 @@ const About = () => {
       <hr className="border border-black mt-4" />
       <div className="mt-4 p-3 text-gray-700">
         <p className="mb-4 leading-normal" data-aos='fade-up' data-aos-delay = '100'>
-          Hello, I'm Muhammad Hanif Sya'bani, the wordsmith behind the screen on
-          this site. I'm thrilled to share stories, knowledge, and inspiration
-          with you. Let's get to know each other a little better.
+          Hello, I am Muhammad Hanif Sya bani, the wordsmith behind the screen on
+          this site. I am thrilled to share stories, knowledge, and inspiration
+          with you. Lets get to know each other a little better.
         </p>
         <p className="mb-4 leading-normal" data-aos='fade-up' data-aos-delay = '200'>
           I am 20 years old and hail from Sekayu, Musi Banyuasin. Since
-          childhood, I've always been fascinated by the world of technology and,
+          childhood, I have always been fascinated by the world of technology and,
           shaping the journey of my life and my current writings. My hobbies
           include Badminton, Learn Programming, and Sleep, adding color to each
           day.
@@ -34,12 +34,12 @@ const About = () => {
         <p className="mb-4 leading-normal" data-aos='fade-up' data-aos-delay = '300'>
           It all started when I started . This experience opened my eyes to web
           development, which has since become the primary inspiration for my
-          writings and content. Along this journey, I've also learned valuable
+          writings and content. Along this journey, I have also learned valuable
           lessons about , guiding me at every step.
         </p>
         <p className="mb-4 leading-normal" data-aos='fade-up' data-aos-delay = '400'>
           This site aims to be a place where we can learn and grow together. I
-          want to [Your Site's Purpose], and through my writings, I hope to
+          want to, and through my writings, I hope to
           inspire, entertain, and provide new insights for my dedicated readers.
         </p>
         

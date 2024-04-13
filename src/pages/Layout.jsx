@@ -60,7 +60,7 @@ const Layout = ({ children }) => {
             <div className="mt-2">
               <div className="flex items-center  pl-2">
                 <h3 className="font-bold text-base ">
-                  Muhammad Hanif Sya'bani
+                  Muhammad Hanif Sya bani
                 </h3>
                 <RiVerifiedBadgeFill size={16} className="text-green-500" />
               </div>
@@ -120,7 +120,7 @@ const Layout = ({ children }) => {
             </div>
             <hr className="mt-6 border border-black" />
             <div className="mt-4 pl-4">
-              <h5>Let's Connect</h5>
+              <h5>Lets Connect</h5>
               <Medsos />
             </div>
             <hr className="mt-6 border border-black" />
@@ -128,7 +128,7 @@ const Layout = ({ children }) => {
               <p className="text-center text-sm p-4 mt-3">
                 ©️ 2024 Copyright By{" "}
                 <a href="www.linkedin.com/in/muhammad-hanif-sya-bani">
-                  <span className="font-bold">Muhammad Hanif Sya'bani</span>
+                  <span className="font-bold">Muhammad Hanif Sya bani</span>
                 </a>
               </p>
             </div>
