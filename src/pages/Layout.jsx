@@ -31,15 +31,15 @@ const Layout = ({ children }) => {
   return (
     <React.Fragment>
       <NextTopLoader color="purple" />
-      <div className="z-52 flex  justify-between items-center px-6 py-2 fixed bg-white w-full   lg:hidden">
+      <div className="flex  justify-between items-center px-6 py-2 fixed bg-white w-full   lg:hidden z-50">
         <h1 className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-bold">
           MHS
         </h1>
         <AiOutlineMenu size={25} onClick={handleNav} />
       </div>
 
-      {nav && (
-        <div className=" w-[60%] z-20  bg-gray-300 overflow-y-auto fixed h-screen shadow-xl">
+
+        <div className={`${nav? "right-0": "-right-[100%]"} w-[60%] z-20  bg-gray-300 lg:hidden overflow-y-auto fixed h-screen shadow-xl transition-all`}>
           <div className=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-full h-24 text-center pt-5 ">
             <h1 className="font-bold text-white text-lg">Welcome</h1>
             <div></div>
@@ -146,7 +146,7 @@ const Layout = ({ children }) => {
             </div>
           </Modal>
         </div>
-      )}
+
       <div className="flex">
         <Sidebar handleDarkMode={handleDarkMode} darkmode={darkmode} />
         <main className={`${darkmode ? "bg-gray-900 text-white" : "bg-white"} md:overflow-y-auto md:w-[80%] md:ml-[16rem] pt-11 lg:pt-0 font-[poppins]`} darkmode= {darkmode}>
